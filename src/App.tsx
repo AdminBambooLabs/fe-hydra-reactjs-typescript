@@ -12,7 +12,7 @@ import "@fontsource/open-sans/800.css";
 
 function App() {
   return (
-    <ThemeProvider theme={themes.white}>
+    <ThemeProvider theme={themes.dark}>
       <GlobalStyles />
       <Router />
     </ThemeProvider>
