@@ -12,4 +12,6 @@ export const queryClient = new QueryClient({
 
 export const keys = {
   lists: () => ["lists"] as const,
+  list: (listId: string) => ["list", listId] as const,
+  listItems: (listId: string) => ["list-items", listId] as const,
 };

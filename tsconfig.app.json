@@ -7,10 +7,10 @@
     "module": "esnext",
     "skipLibCheck": true,
     "types": ["vite/client", "react", "react-dom"],
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "outDir": "./dist",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["./src/*"]
     },
 
     /* Bundler mode */
